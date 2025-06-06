@@ -1,0 +1,54 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=43;
+	Taxlabels
+		Baculites_asper
+		Baculites_asperiformis
+		Baculites_baculus
+		Baculites_boulei
+		Baculites_capensis
+		Baculites_chicoensis
+		Baculites_claviformis
+		Baculites_clinolobatus
+		Baculites_codyensis
+		Baculites_compressus
+		Baculites_cuneatus
+		Baculites_eliasi
+		Baculites_gilberti
+		Baculites_grandis
+		Baculites_gregoryensis
+		Baculites_haresi
+		Baculites_inornatus
+		Baculites_jenseni
+		Baculites_kirki
+		Baculites_lomaensis_EPC
+		Baculites_lomaensis_GCP
+		Baculites_maclearni
+		Baculites_obtusus
+		Baculites_occidentalis
+		Baculites_ovatus
+		Baculites_perplexus
+		Baculites_reesidei
+		Baculites_rex
+		Baculites_rugosus
+		Baculites_schenki
+		Baculites_scotti
+		Baculites_taylorensis
+		Baculites_undatus
+		Baculites_yokoyamai
+		Eubaculites_carinatus
+		Eubaculites_labyrinthicus
+		Eubaculites_latecarinatus
+		Eubaculites_ootacodensis
+		Sciponoceras_baculoides
+		Sciponoceras_gracile
+		Sciponoceras_kossmati
+		Trachybaculites_columna_EPC
+		Trachybaculites_columna_GCP
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&R](((((((((((((((((((Eubaculites_carinatus[&index=12,sampled_ancestor=0.780840,age_95%_HPD={0.200159,2.12785}]:1.351519,Eubaculites_latecarinatus[&index=10,sampled_ancestor=0.379948,age_95%_HPD={0.450077,1.4655}]:1.350746)[&index=44,posterior=0.041828,age_95%_HPD={1.0544,3.7766}]:2.208175,Baculites_clinolobatus[&index=25,sampled_ancestor=0.751979,age_95%_HPD={2.99124,4.51997}]:0.624261)[&index=45,posterior=0.004928,age_95%_HPD={2.97192,5.84139}]:1.018663,Baculites_undatus[&index=24,sampled_ancestor=0.815723,age_95%_HPD={4.78918,5.13957}]:0.557680)[&index=46,posterior=0.004078,age_95%_HPD={4.84361,6.62644}]:0.620603,(Baculites_eliasi[&index=26,sampled_ancestor=0.755918,age_95%_HPD={5.11881,5.61992}]:0.780764,Trachybaculites_columna_EPC[&index=19,sampled_ancestor=0.511819,age_95%_HPD={2.89578,4.51908}]:2.463036)[&index=47,posterior=0.003822,age_95%_HPD={5.19295,8.28171}]:0.000001)[&index=48,posterior=0.002022,age_95%_HPD={5.25532,7.33714}]:1.413614,(Baculites_jenseni[&index=17,sampled_ancestor=0.658480,age_95%_HPD={6.26595,6.54992}]:0.966262,Eubaculites_labyrinthicus[&index=18,sampled_ancestor=0.006700,age_95%_HPD={0.304911,1.54999}]:6.394587)[&index=49,posterior=0.003100,age_95%_HPD={6.34701,8.72547}]:0.188928)[&index=50,posterior=0.000706,age_95%_HPD={6.4692,8.95195}]:0.576244,(((Baculites_baculus[&index=34,sampled_ancestor=0.644585,age_95%_HPD={3.53708,4.54851}]:0.947969,Eubaculites_ootacodensis[&index=11]:4.978496)[&index=51,posterior=0.020005,age_95%_HPD={3.54213,6.97021}]:1.529191,Baculites_claviformis[&index=20,sampled_ancestor=0.642913,age_95%_HPD={5.17723,5.62991}]:1.105964)[&index=52,posterior=0.009133,age_95%_HPD={5.20648,8.54947}]:1.332704,Baculites_ovatus[&index=31,sampled_ancestor=0.815895,age_95%_HPD={6.5677,6.94798}]:1.088033)[&index=53,posterior=0.002939,age_95%_HPD={6.60751,9.76703}]:0.293612)[&index=54,posterior=0.000594,age_95%_HPD={7.02336,9.29734}]:1.346317,((Baculites_lomaensis_GCP[&index=22,sampled_ancestor=0.029055,age_95%_HPD={0.200007,1.48937}]:6.365139,Baculites_occidentalis[&index=8,sampled_ancestor=0.496258,age_95%_HPD={6.25476,6.53935}]:0.819080)[&index=55,posterior=0.007117,age_95%_HPD={6.27393,8.75162}]:2.262551,Baculites_lomaensis_EPC[&index=36,sampled_ancestor=0.906656,age_95%_HPD={8.05125,9.04261}]:0.940040)[&index=56,posterior=0.001917,age_95%_HPD={8.08626,11.47}]:0.000001)[&index=57,posterior=0.003144,age_95%_HPD={8.19709,10.8619}]:2.101549,Baculites_gilberti[&index=16,sampled_ancestor=0.897001,age_95%_HPD={10.8772,11.3296}]:0.477709)[&index=58,posterior=0.000600,age_95%_HPD={10.971,12.8883}]:0.000001,(Baculites_grandis[&index=23,sampled_ancestor=0.545330,age_95%_HPD={4.55538,5.14996}]:1.463120,Trachybaculites_columna_GCP[&index=21,sampled_ancestor=0.018322,age_95%_HPD={2.80155,3.3704}]:3.215082)[&index=59,posterior=0.042328,age_95%_HPD={4.58757,8.99834}]:5.270703)[&index=60,posterior=0.000389,age_95%_HPD={10.9176,12.6196}]:0.704465,((((Baculites_cuneatus[&index=13,sampled_ancestor=0.858040,age_95%_HPD={6.00623,6.54952}]:0.609274,Baculites_reesidei[&index=9,sampled_ancestor=0.431770,age_95%_HPD={5.62001,5.95659}]:1.087575)[&index=61,posterior=0.079483,age_95%_HPD={6.16097,7.73016}]:1.682428,Baculites_compressus[&index=30,sampled_ancestor=0.937550,age_95%_HPD={7.53078,8.64939}]:0.443799)[&index=62,posterior=0.006178,age_95%_HPD={7.52924,9.88269}]:2.165717,Baculites_gregoryensis[&index=33,sampled_ancestor=0.916528,age_95%_HPD={9.2449,11.33}]:0.069629)[&index=63,posterior=0.000772,age_95%_HPD={9.10679,11.9813}]:1.564716,Baculites_rex[&index=32,sampled_ancestor=0.988245,age_95%_HPD={11.3313,13.225}]:0.079348)[&index=64,posterior=0.000272,age_95%_HPD={11.349,13.7785}]:0.000001)[&index=65,posterior=0.004200,age_95%_HPD={11.4676,13.2447}]:0.983034,((Baculites_rugosus[&index=27,sampled_ancestor=0.578819,age_95%_HPD={6.96845,8.57942}]:3.322203,Baculites_scotti[&index=14,sampled_ancestor=0.853940,age_95%_HPD={8.65125,12.8435}]:0.425235)[&index=66,posterior=0.003539,age_95%_HPD={9.13557,13.4161}]:2.150827,Baculites_asperiformis[&index=29,sampled_ancestor=0.955306,age_95%_HPD={12.0743,13.3495}]:0.559486)[&index=67,posterior=0.000761,age_95%_HPD={12.098,14.8393}]:0.000001)[&index=68,posterior=0.049844,age_95%_HPD={12.1241,14.5018}]:0.919614,Baculites_taylorensis[&index=7,sampled_ancestor=0.762474,age_95%_HPD={12.568,13.137}]:1.336567)[&index=69,posterior=0.038322,age_95%_HPD={12.8891,15.7631}]:1.443949,((Baculites_maclearni[&index=15,sampled_ancestor=0.736779,age_95%_HPD={12.551,13.3101}]:0.902511,Baculites_perplexus[&index=28,sampled_ancestor=0.636730,age_95%_HPD={10.6545,13.2095}]:1.906428)[&index=70,posterior=0.016622,age_95%_HPD={12.7412,14.9821}]:0.930601,Baculites_obtusus[&index=35,sampled_ancestor=0.934367,age_95%_HPD={13.7272,15.9495}]:0.000001)[&index=71,posterior=0.006544,age_95%_HPD={13.5101,16.492}]:0.853512)[&index=72,posterior=0.372203,age_95%_HPD={13.8919,17.8067}]:6.379223,Baculites_inornatus[&index=2,sampled_ancestor=0.779068,age_95%_HPD={20.5499,22.1}]:0.652279)[&index=73,posterior=0.004706,age_95%_HPD={20.6487,23.9323}]:1.257358,(((((Baculites_boulei[&index=6,sampled_ancestor=0.960739,age_95%_HPD={18.0506,20.2602}]:0.061762,Baculites_haresi[&index=5,sampled_ancestor=0.591397,age_95%_HPD={16.2744,16.5999}]:2.721976)[&index=74,posterior=0.001289,age_95%_HPD={18.1531,20.6708}]:0.851824,Baculites_chicoensis[&index=3,sampled_ancestor=0.657119,age_95%_HPD={18.0503,21.3849}]:0.437156)[&index=75,posterior=0.012122,age_95%_HPD={18.7093,21.3472}]:0.647645,Baculites_schenki[&index=4,sampled_ancestor=0.989211,age_95%_HPD={18.4222,22.0843}]:0.127244)[&index=76,posterior=0.012133,age_95%_HPD={19.1194,22.3334}]:0.655980,((Baculites_codyensis[&index=38,sampled_ancestor=0.440042,age_95%_HPD={19.55,20.3858}]:0.660043,Baculites_kirki[&index=41,sampled_ancestor=0.280104,age_95%_HPD={16.0232,18.0485}]:3.537058)[&index=77,posterior=0.012467,age_95%_HPD={19.6616,21.7014}]:0.310202,Baculites_asper[&index=40,sampled_ancestor=0.758807,age_95%_HPD={19.6069,20.4499}]:0.874419)[&index=78,posterior=0.037594,age_95%_HPD={19.9557,21.8201}]:0.405935)[&index=79,posterior=0.010111,age_95%_HPD={20.2814,22.094}]:0.726330,Baculites_capensis[&index=37,sampled_ancestor=0.977339,age_95%_HPD={18.9894,22.0994}]:1.093358)[&index=80,posterior=0.053350,age_95%_HPD={20.5765,23.9077}]:1.221244)[&index=81,posterior=0.840795,age_95%_HPD={21.5142,25.4329}]:3.316720,Baculites_yokoyamai[&index=1,sampled_ancestor=0.976178,age_95%_HPD={25.9207,26.2986}]:0.474468)[&index=82,posterior=0.073366,age_95%_HPD={25.9261,27.4245}]:1.781251,Sciponoceras_gracile[&index=39,sampled_ancestor=0.957634,age_95%_HPD={28.0001,28.1899}]:0.269245)[&index=83,posterior=0.018344,age_95%_HPD={28.0068,28.8331}]:0.743773,Sciponoceras_kossmati[&index=42,sampled_ancestor=0.873184,age_95%_HPD={26.9001,28.77}]:0.947269)[&index=84,posterior=0.128416,age_95%_HPD={28.0765,30.5867}]:3.151571,Sciponoceras_baculoides[&index=43,sampled_ancestor=0.983395,age_95%_HPD={31.716,32.65}]:0.000001)[&index=85,posterior=0.040189,age_95%_HPD={30.9499,33.3369}]:0.000000;
+End;

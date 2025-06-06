@@ -1,0 +1,35 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=24;
+	Taxlabels
+		Asturicystis_jaekeli
+		Bohemiacinctus_havliceki
+		Ctenocystis_utahensis
+		Elliptocinctus_barrandei
+		Elliptocinctus_vizcainoi
+		Graciacystis_ambigua
+		Gyrocystis_badulesiensis
+		Gyrocystis_cruzae
+		Gyrocystis_erecta
+		Gyrocystis_platessa
+		Gyrocystis_testudiformis
+		Lignanicystis_barriosensis
+		Ludwigicinctus_truncatus
+		Progyrocystis_disjuncta
+		Protocinctus_mansillaensis
+		Sotocinctus_ubaghsi
+		Sucocystis_acrofera
+		Sucocystis_bretoni
+		Sucocystis_theronensis
+		Trochocystites_bohemicus
+		Trochocystoides_parvus
+		Undatacinctus_melendezi
+		Undatacinctus_quadricornuta
+		Undatacinctus_undata
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&R]((((((((((((Sucocystis_bretoni[&index=14,age_95%_HPD={2.33753,2.79932}]:0.897458,Sucocystis_theronensis[&index=18,age_95%_HPD={2.80351,3.28545}]:0.452513)[&index=25,posterior=0.401533,age_95%_HPD={2.85776,4.38306}]:0.243796,Sucocystis_acrofera[&index=10]:3.731126)[&index=26,posterior=0.728757,age_95%_HPD={2.8678,4.90844}]:0.720837,(Undatacinctus_undata[&index=16,sampled_ancestor=0.292902,age_95%_HPD={1.45924,2.79982}]:0.249731)Undatacinctus_melendezi[&index=27,posterior=0.504165,age_95%_HPD={1.83031,2.79972},sampled_ancestor=0.504165]:2.022562)[&index=28,posterior=0.389537,age_95%_HPD={3.04125,6.2391}]:0.757136,(Ludwigicinctus_truncatus[&index=20,sampled_ancestor=0.038654,age_95%_HPD={2.32824,3.29992}]:1.051032,Undatacinctus_quadricornuta[&index=11,sampled_ancestor=0.003999,age_95%_HPD={1.79432,2.79994}]:1.487039)[&index=29,posterior=0.934355,age_95%_HPD={2.64954,5.5602}]:1.306989)[&index=30,posterior=0.275908,age_95%_HPD={3.57435,6.9168}]:0.290461,(Elliptocinctus_barrandei[&index=13,age_95%_HPD={2.81615,3.32809}]:1.462310,Lignanicystis_barriosensis[&index=21,age_95%_HPD={2.80822,3.30017}]:1.484444)[&index=31,posterior=0.232922,age_95%_HPD={3.33827,6.09957}]:0.925462)[&index=32,posterior=0.178274,age_95%_HPD={4.16035,6.97803}]:-0.003261,(Gyrocystis_erecta[&index=15,sampled_ancestor=0.402866,age_95%_HPD={2.80099,4.30766}]:0.171280)Gyrocystis_badulesiensis[&index=33,posterior=0.566811,age_95%_HPD={2.83201,4.43103},sampled_ancestor=0.566811]:2.127778)[&index=34,posterior=0.117961,age_95%_HPD={4.31969,6.76721}]:1.238084,Elliptocinctus_vizcainoi[&index=9,sampled_ancestor=0.164279,age_95%_HPD={5.20142,6.21541}]:0.981615)[&index=35,posterior=0.242253,age_95%_HPD={5.5951,7.95158}]:0.970416,Trochocystites_bohemicus[&index=8,age_95%_HPD={6.30023,6.94174}]:1.128064)[&index=36,posterior=0.361879,age_95%_HPD={6.7743,8.70019}]:0.702373,(Bohemiacinctus_havliceki[&index=6,age_95%_HPD={6.70717,6.98783}]:1.065893,Trochocystoides_parvus[&index=23,sampled_ancestor=0.011330,age_95%_HPD={5.59928,6.29895}]:1.945211)[&index=37,posterior=0.184272,age_95%_HPD={7.07977,8.78311}]:0.497812)[&index=38,posterior=0.358880,age_95%_HPD={7.45738,9.4749}]:0.410061,Protocinctus_mansillaensis[&index=22,sampled_ancestor=0.099633,age_95%_HPD={7.20002,8.26943}]:1.159857)[&index=39,posterior=0.208264,age_95%_HPD={7.911,10.02}]:0.445746,((((Gyrocystis_cruzae[&index=24,sampled_ancestor=0.106631,age_95%_HPD={2.93941,4.89891}]:1.567177,Gyrocystis_testudiformis[&index=3,sampled_ancestor=0.002999,age_95%_HPD={4.30011,4.86213}]:0.967981)[&index=40,posterior=0.765412,age_95%_HPD={4.6799,6.40784}]:0.957721)Gyrocystis_platessa[&index=41,posterior=0.519160,age_95%_HPD={6.30568,6.683},sampled_ancestor=0.763079]:1.364511,Progyrocystis_disjuncta[&index=17,age_95%_HPD={2.90368,4.89385}]:4.067763)[&index=42,posterior=0.269577,age_95%_HPD={6.66968,8.98462}]:0.769205,((Graciacystis_ambigua[&index=7,age_95%_HPD={6.30002,6.66517}]:0.536312)Sotocinctus_ubaghsi[&index=43,posterior=0.413529,age_95%_HPD={6.77321,7.19983},sampled_ancestor=0.606465]:0.809601,Asturicystis_jaekeli[&index=2,sampled_ancestor=0.006998,age_95%_HPD={6.32015,6.69519}]:1.309063)[&index=44,posterior=0.567811,age_95%_HPD={6.97009,8.7208}]:0.814125)[&index=45,posterior=0.183939,age_95%_HPD={7.6237,9.75812}]:0.633088)[&index=46,posterior=1.000000,age_95%_HPD={8.19143,10.5622}]:0.366861,Ctenocystis_utahensis[&index=1,sampled_ancestor=0.471843,age_95%_HPD={8.30031,8.39542}]:1.278594)[&index=47,posterior=0.528157,age_95%_HPD={8.53472,10.7854}]:0.000000;
+End;

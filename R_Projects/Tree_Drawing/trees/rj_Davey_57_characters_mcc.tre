@@ -1,0 +1,35 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=24;
+	Taxlabels
+		Asturicystis_jaekeli
+		Bohemiacinctus_havliceki
+		Ctenocystis_utahensis
+		Elliptocinctus_barrandei
+		Elliptocinctus_vizcainoi
+		Graciacystis_ambigua
+		Gyrocystis_badulesiensis
+		Gyrocystis_cruzae
+		Gyrocystis_erecta
+		Gyrocystis_platessa
+		Gyrocystis_testudiformis
+		Lignanicystis_barriosensis
+		Ludwigicinctus_truncatus
+		Progyrocystis_disjuncta
+		Protocinctus_mansillaensis
+		Sotocinctus_ubaghsi
+		Sucocystis_acrofera
+		Sucocystis_bretoni
+		Sucocystis_theronensis
+		Trochocystites_bohemicus
+		Trochocystoides_parvus
+		Undatacinctus_melendezi
+		Undatacinctus_quadricornuta
+		Undatacinctus_undata
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&R](((((((((((Ludwigicinctus_truncatus[&index=19,age_95%_HPD={2.33156,3.29992}]:1.190519,Undatacinctus_quadricornuta[&index=11,age_95%_HPD={1.7703,2.79994}]:1.677487)[&index=25,posterior=0.891128,age_95%_HPD={2.72441,5.95592}]:1.024721,(Undatacinctus_melendezi[&index=10,age_95%_HPD={1.61712,2.79999}]:0.287147,Undatacinctus_undata[&index=20,age_95%_HPD={1.76007,2.79996}]:0.167919)[&index=26,posterior=0.997160,age_95%_HPD={1.80533,3.19305}]:2.550788)[&index=27,posterior=0.328419,age_95%_HPD={3.35035,6.91902}]:0.418129,((Sucocystis_acrofera[&index=9]:2.808758,Sucocystis_bretoni[&index=12,age_95%_HPD={2.33886,2.8}]:0.221982)[&index=28,posterior=0.579794,age_95%_HPD={2.32834,3.37076}]:0.839210,Sucocystis_theronensis[&index=15,age_95%_HPD={2.80004,3.28225}]:0.625086)[&index=29,posterior=0.936345,age_95%_HPD={2.85725,4.82884}]:1.883011)[&index=30,posterior=0.227437,age_95%_HPD={3.90592,7.01987}]:0.017046,(Elliptocinctus_barrandei[&index=8,age_95%_HPD={2.80043,3.33302}]:1.498291,Lignanicystis_barriosensis[&index=5,age_95%_HPD={2.80059,3.29996}]:1.530722)[&index=31,posterior=0.318006,age_95%_HPD={3.27639,6.15987}]:0.931031)[&index=32,posterior=0.198224,age_95%_HPD={4.26757,6.912}]:1.000376,Elliptocinctus_vizcainoi[&index=14,age_95%_HPD={5.20005,6.15096}]:0.903867)[&index=33,posterior=0.489271,age_95%_HPD={5.56568,7.50355}]:0.772369,Trochocystites_bohemicus[&index=18,age_95%_HPD={6.30001,6.92187}]:0.755426)[&index=34,posterior=0.602921,age_95%_HPD={6.51548,8.32095}]:0.535732,Trochocystoides_parvus[&index=1,age_95%_HPD={5.61774,6.29996}]:1.873783)[&index=35,posterior=0.511315,age_95%_HPD={6.81095,8.99555}]:0.118061,Bohemiacinctus_havliceki[&index=23,age_95%_HPD={6.71482,6.99912}]:1.122349)[&index=36,posterior=0.248760,age_95%_HPD={6.93694,9.08728}]:0.606825,((Graciacystis_ambigua[&index=2,age_95%_HPD={6.3,6.66727}]:0.762776,Sotocinctus_ubaghsi[&index=7,age_95%_HPD={6.75218,7.19999}]:0.229637)[&index=37,posterior=0.590659,age_95%_HPD={6.70008,8.09745}]:0.639981,Asturicystis_jaekeli[&index=17,age_95%_HPD={6.32056,6.69972}]:1.365252)[&index=38,posterior=0.523668,age_95%_HPD={6.94516,8.96511}]:0.710558)[&index=39,posterior=0.206519,age_95%_HPD={7.3251,9.81375}]:0.718651,((((((Gyrocystis_badulesiensis[&index=6,age_95%_HPD={2.80001,4.33194}]:0.156076,Gyrocystis_erecta[&index=4,age_95%_HPD={2.8001,4.43315}]:0.118711)[&index=40,posterior=0.999955,age_95%_HPD={2.82858,4.59813}]:1.282602,Gyrocystis_cruzae[&index=21,age_95%_HPD={3.00635,4.89996}]:0.562172)[&index=41,posterior=0.438283,age_95%_HPD={3.6598,6.02172}]:0.987345,Gyrocystis_testudiformis[&index=16,age_95%_HPD={4.30034,4.85767}]:1.142467)[&index=42,posterior=0.629519,age_95%_HPD={4.75696,6.53119}]:0.993921,Gyrocystis_platessa[&index=22,age_95%_HPD={6.32126,6.69931}]:0.199983)[&index=43,posterior=0.719502,age_95%_HPD={6.3,7.71999}]:1.061867,Progyrocystis_disjuncta[&index=13,age_95%_HPD={2.91036,4.89995}]:3.957699)[&index=44,posterior=0.412226,age_95%_HPD={6.55222,9.04764}]:0.980768,Protocinctus_mansillaensis[&index=3,age_95%_HPD={7.20008,8.23463}]:1.138438)[&index=45,posterior=0.142097,age_95%_HPD={7.62837,9.9691}]:0.554653)[&index=46,posterior=1.000000,age_95%_HPD={8.00846,10.7614}]:0.396722,Ctenocystis_utahensis[&index=24,age_95%_HPD={8.30519,8.4}]:1.344793)[&index=47,posterior=1.000000,age_95%_HPD={8.3174,11.0494}]:0.000000;
+End;

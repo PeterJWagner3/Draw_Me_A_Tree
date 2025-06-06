@@ -1,0 +1,37 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=26;
+	Taxlabels
+		Aristocystites_bohemicus
+		Asteroblastus_stellatus
+		Canadocystis_barrandei
+		Dactylocystis_schmidti
+		Estonocystis_antropoffi
+		Eucystis_angelini
+		Eumorphocystis_multiporata
+		Fungocystites_rarissimus
+		Glyptosphaerites_leuchtenbergi
+		Gogia_spiralis
+		Gomphocystites_indianensis
+		Haplosphaeronis_oblonga
+		Hemicosmites_grandis
+		Holocystites_cylindricus
+		Holocystites_salmoensis
+		Holocystites_scutellus
+		Hybocrinus_nitidus
+		Paulicystis_densus
+		Pentacystis_gibsoni
+		Pustulocystis_pentax
+		Rhopalocystis_destombesi
+		Sphaeronites_rossicum
+		Stephanocrinus_angulatus
+		Trematocystis_magniporatus
+		Triamara_ventricosa
+		Tristomiocystis_globosus
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&R](((((((((((Paulicystis_densus[&index=4,age_95%_HPD={50.17,51.2327}]:4.022205,Trematocystis_magniporatus[&index=13,age_95%_HPD={50.1706,51.2363}]:4.018305)[&index=27,posterior=0.839749,age_95%_HPD={50.9616,59.4069}]:4.414801,(Pentacystis_gibsoni[&index=12,age_95%_HPD={50.1969,51.2873}]:2.792332,Pustulocystis_pentax[&index=23,age_95%_HPD={50.189,51.2728}]:2.793031)[&index=28,posterior=0.934845,age_95%_HPD={50.5559,57.4526}]:5.643819)[&index=29,posterior=0.408896,age_95%_HPD={53.3675,65.4881}]:1.152517,Holocystites_scutellus[&index=10,age_95%_HPD={50.3239,52.0572}]:9.111614)[&index=30,posterior=0.291275,age_95%_HPD={55.3864,66.4197}]:4.251939,Holocystites_salmoensis[&index=8,age_95%_HPD={61.3604,62.3963}]:2.688325)[&index=31,posterior=0.175791,age_95%_HPD={61.4803,69.1231}]:2.523875,Holocystites_cylindricus[&index=2,age_95%_HPD={50.5441,52.0629}]:15.803564)[&index=32,posterior=0.744796,age_95%_HPD={61.5202,74.3427}]:15.341748,(Aristocystites_bohemicus[&index=15,age_95%_HPD={69.7413,71.2381}]:5.308037,Triamara_ventricosa[&index=5,age_95%_HPD={50.2585,51.9702}]:24.600880)[&index=33,posterior=0.626889,age_95%_HPD={71.0187,81.9393}]:6.626733)[&index=34,posterior=0.707157,age_95%_HPD={74.2999,91.4947}]:13.035702,(((Eucystis_angelini[&index=18,age_95%_HPD={63.9737,68.244}]:3.642551,Tristomiocystis_globosus[&index=14]:69.761690)[&index=35,posterior=0.474765,age_95%_HPD={64.19,77.2242}]:9.964705,Haplosphaeronis_oblonga[&index=7,age_95%_HPD={69.9895,71.7564}]:8.915170)[&index=36,posterior=0.447676,age_95%_HPD={72.2267,88.4823}]:12.114946,Sphaeronites_rossicum[&index=25,age_95%_HPD={87.3792,88.3644}]:3.987431)[&index=37,posterior=0.261334,age_95%_HPD={87.592,97.397}]:3.599839)[&index=38,posterior=0.429569,age_95%_HPD={87.7772,104.318}]:9.808226,((((Fungocystites_rarissimus[&index=16,age_95%_HPD={69.7315,71.2158}]:4.312703,Gomphocystites_indianensis[&index=26,age_95%_HPD={50.1629,51.2406}]:24.116457)[&index=39,posterior=0.642287,age_95%_HPD={69.9735,81.8281}]:8.986752,Estonocystis_antropoffi[&index=6,age_95%_HPD={75.9495,77.2479}]:7.227170)[&index=40,posterior=0.495723,age_95%_HPD={76.7575,91.9227}]:9.884582,Glyptosphaerites_leuchtenbergi[&index=9,age_95%_HPD={82.8228,86.5662}]:9.120326)[&index=41,posterior=0.476190,age_95%_HPD={86.082,102.466}]:0.510058,Canadocystis_barrandei[&index=1,age_95%_HPD={75.64,77.187}]:17.786808)[&index=42,posterior=0.124323,age_95%_HPD={87.0414,102.939}]:11.047946)[&index=43,posterior=0.188338,age_95%_HPD={94.7341,116.446}]:5.600612,(((Asteroblastus_stellatus[&index=11,age_95%_HPD={85.3835,86.9794}]:3.797239,Dactylocystis_schmidti[&index=21,age_95%_HPD={69.8852,71.2069}]:19.454443)[&index=44,posterior=0.608212,age_95%_HPD={85.2262,97.862}]:10.211824,(Eumorphocystis_multiporata[&index=19,age_95%_HPD={73.6626,75.7382}]:12.760525,Hybocrinus_nitidus[&index=17,age_95%_HPD={73.5931,74.9967}]:13.173097)[&index=45,posterior=0.772027,age_95%_HPD={79.3062,97.2256}]:12.708727)[&index=46,posterior=0.337753,age_95%_HPD={90.7722,111.137}]:4.111263,(Hemicosmites_grandis[&index=20,age_95%_HPD={61.4639,63.4697}]:12.861257,Stephanocrinus_angulatus[&index=22,age_95%_HPD={50.2924,52.0597}]:24.249505)[&index=47,posterior=0.957514,age_95%_HPD={64.7821,87.6396}]:28.889223)[&index=48,posterior=0.168092,age_95%_HPD={93.2466,117.529}]:6.550995)[&index=49,posterior=0.726547,age_95%_HPD={100.106,123.326}]:4.790230,Rhopalocystis_destombesi[&index=3,age_95%_HPD={101.194,103.043}]:13.516212)[&index=50,posterior=0.913887,age_95%_HPD={104.945,126.613}]:11.249343,Gogia_spiralis[&index=24,age_95%_HPD={120.647,123.376}]:4.938679)[&index=51,posterior=1.000000,age_95%_HPD={121.029,134.271}]:0.000000;
+End;

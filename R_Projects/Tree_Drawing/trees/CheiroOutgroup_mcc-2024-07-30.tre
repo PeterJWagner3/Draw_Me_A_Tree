@@ -1,0 +1,35 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=24;
+	Taxlabels
+		Amygdalocystites_florealis
+		Amygdalocystites_radiatus
+		Bistomiacystis_globosa
+		Bistomiacystis_schrantzi
+		Canadocystis_emmonsi
+		Canadocystis_tennesseensis
+		Cheirocystis_fultonensis
+		Columbocystis_ovata
+		Columbocystis_typica
+		Comarocystites_punctatus
+		Comarocystites_tribrachius
+		Globulocystites_cristatus
+		Globulocystites_infundus
+		Globulocystites_rotundatus
+		Implicaticystis_shumardi
+		Implicaticystis_symmetricus
+		Malocystites_murchisoni
+		Oklahomacystis_bibrachiatus
+		Oklahomacystis_spissus
+		Oklahomacystis_tribrachiatus
+		Oklahomacystis_trigonis
+		Platycystites_faberi
+		Sinclairocystis_praedicta
+		Wellerocystis_kimmswickensis
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&R](((((((Comarocystites_tribrachius[&index=11,sampled_ancestor=0.000020,age_95%_HPD={1.18937,2.36219}]:75.862752,Implicaticystis_shumardi[&index=2,age_95%_HPD={0,0.79467}]:77.405079)[&index=25,posterior=0.266236,age_95%_HPD={58.0515,104.47}]:6.436491,Comarocystites_punctatus[&index=10,age_95%_HPD={0.00352,4.54981}]:82.101989)[&index=26,posterior=0.326449,age_95%_HPD={65.9032,106.527}]:1.313607,Implicaticystis_symmetricus[&index=24,age_95%_HPD={0.000383,1.34562}]:84.979298)[&index=27,posterior=0.661965,age_95%_HPD={69.1703,108.326}]:7.256667,(Columbocystis_ovata[&index=14,sampled_ancestor=0.020920,age_95%_HPD={3.28128,5.4131}]:38.351073,Columbocystis_typica[&index=16,sampled_ancestor=0.010953,age_95%_HPD={3.03799,4.6062}]:38.926455)[&index=28,posterior=0.967154,age_95%_HPD={4.73386,70.6542}]:49.860943)[&index=29,posterior=0.994747,age_95%_HPD={74.0935,112.723}]:10.952930,(((Canadocystis_emmonsi[&index=3,age_95%_HPD={6.25829,8.27225}]:67.620790,Canadocystis_tennesseensis[&index=22,age_95%_HPD={5.69651,9.37417}]:67.455643)[&index=30,posterior=0.337062,age_95%_HPD={55.4737,101.97}]:6.867473,Malocystites_murchisoni[&index=6,age_95%_HPD={6.44211,8.7896}]:74.101007)[&index=31,posterior=0.876382,age_95%_HPD={64.3609,105.985}]:10.262652,(Bistomiacystis_globosa[&index=21,sampled_ancestor=0.151151,age_95%_HPD={3.40083,4.4693}]:12.021454,Bistomiacystis_schrantzi[&index=7,age_95%_HPD={1.40467,2.58588}]:13.949558)[&index=32,posterior=0.848849,age_95%_HPD={3.39307,37.4052}]:76.125144)[&index=33,posterior=0.860655,age_95%_HPD={73.4297,114.878}]:11.535434)[&index=34,posterior=0.390075,age_95%_HPD={87.4468,118.125}]:3.492889,(((((Globulocystites_cristatus[&index=13,age_95%_HPD={3.75011,4.85257}]:66.434212,Sinclairocystis_praedicta[&index=15,age_95%_HPD={3.66618,4.4671}]:66.672773)[&index=35,posterior=0.344162,age_95%_HPD={50.1979,95.9309}]:7.267714,Platycystites_faberi[&index=23,sampled_ancestor=0.000060,age_95%_HPD={3.77392,5.16948}]:73.514768)[&index=36,posterior=0.138785,age_95%_HPD={61.8997,99.1035}]:5.298840,(Globulocystites_infundus[&index=18,age_95%_HPD={3.93092,4.76295}]:72.979913,Globulocystites_rotundatus[&index=20,age_95%_HPD={4.43616,5.96933}]:72.099320)[&index=37,posterior=0.152551,age_95%_HPD={60.4865,99.9016}]:5.996301)[&index=38,posterior=0.413101,age_95%_HPD={67.8433,103.387}]:3.143091,(Amygdalocystites_florealis[&index=5,sampled_ancestor=0.000040,age_95%_HPD={3.88932,4.64476}]:69.711207,Amygdalocystites_radiatus[&index=12,age_95%_HPD={0.814724,2.75822}]:72.158546)[&index=39,posterior=0.255423,age_95%_HPD={52.0551,102.682}]:12.494047)[&index=40,posterior=0.476120,age_95%_HPD={70.0516,105.265}]:9.154980,((((Oklahomacystis_bibrachiatus[&index=9,age_95%_HPD={3.72987,4.63239}]:52.784522,Oklahomacystis_tribrachiatus[&index=8,age_95%_HPD={3.92647,4.68401}]:52.632318)[&index=41,posterior=0.816102,age_95%_HPD={24.5739,84.5617}]:20.822315,Oklahomacystis_trigonis[&index=17,age_95%_HPD={2.11248,4.29929}]:74.524528)[&index=42,posterior=0.768070,age_95%_HPD={59.8006,101.964}]:10.627888,Oklahomacystis_spissus[&index=19,age_95%_HPD={3.86203,4.61859}]:84.152647)[&index=43,posterior=0.178051,age_95%_HPD={70.7548,109.32}]:0.502747,Wellerocystis_kimmswickensis[&index=4,age_95%_HPD={0.001927,0.977101}]:88.554027)[&index=44,posterior=0.118692,age_95%_HPD={73.5566,110.66}]:6.745860)[&index=45,posterior=0.996780,age_95%_HPD={77.6593,113.891}]:11.447423)[&index=46,posterior=1.000000,age_95%_HPD={91.6934,118.5}]:1.558359,Cheirocystis_fultonensis[&index=1,age_95%_HPD={0,1.55118}]:108.251461)[&index=47,posterior=1.000000,age_95%_HPD={93.711,118.769}]:0.000000;
+End;

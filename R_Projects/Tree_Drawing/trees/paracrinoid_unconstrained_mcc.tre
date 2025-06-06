@@ -1,0 +1,35 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=24;
+	Taxlabels
+		Amygdalocystites_florealis
+		Amygdalocystites_radiatus
+		Bistomiacystis_globosa
+		Bistomiacystis_schrantzi
+		Canadocystis_emmonsi
+		Canadocystis_tennesseensis
+		Cheirocystis_fultonensis
+		Columbocystis_ovata
+		Columbocystis_typica
+		Comarocystites_punctatus
+		Comarocystites_tribrachius
+		Globulocystites_cristatus
+		Globulocystites_infundus
+		Globulocystites_rotundatus
+		Implicaticystis_shumardi
+		Implicaticystis_symmetricus
+		Malocystites_murchisoni
+		Oklahomacystis_bibrachiatus
+		Oklahomacystis_spissus
+		Oklahomacystis_tribrachiatus
+		Oklahomacystis_trigonis
+		Platycystites_faberi
+		Sinclairocystis_praedicta
+		Wellerocystis_kimmswickensis
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&R](((((((((((Amygdalocystites_radiatus[&index=2,sampled_ancestor=0.034621,age_95%_HPD={1.53984,8.04297}]:2.127305)Amygdalocystites_florealis[&index=25,posterior=0.855526,age_95%_HPD={3.84162,9.95096},sampled_ancestor=0.924101]:1.376401)Oklahomacystis_bibrachiatus[&index=26,posterior=0.448069,age_95%_HPD={4.45114,10.8521},sampled_ancestor=0.551931]:0.149599)Oklahomacystis_tribrachiatus[&index=27,posterior=0.447403,age_95%_HPD={4.69895,10.945},sampled_ancestor=0.977364]:0.406225)Oklahomacystis_trigonis[&index=28,posterior=0.414780,age_95%_HPD={5.0606,11.2279},sampled_ancestor=0.494008]:0.202735)Oklahomacystis_spissus[&index=29,posterior=0.290945,age_95%_HPD={5.31233,11.4345},sampled_ancestor=0.364847]:1.937374,(((((Wellerocystis_kimmswickensis[&index=19,sampled_ancestor=0.002663,age_95%_HPD={0,5.89693}]:5.607688)Sinclairocystis_praedicta[&index=30,posterior=0.416778,age_95%_HPD={4.41435,10.5403},sampled_ancestor=0.641811]:0.404706)Globulocystites_cristatus[&index=31,posterior=0.362850,age_95%_HPD={4.70892,10.8034},sampled_ancestor=0.651132]:0.173105)Globulocystites_infundus[&index=32,posterior=0.213715,age_95%_HPD={4.88281,10.8666},sampled_ancestor=0.673103]:0.159996)Platycystites_faberi[&index=33,posterior=0.179095,age_95%_HPD={5.13204,11.2045},sampled_ancestor=0.988016]:0.593316,Globulocystites_rotundatus[&index=4,sampled_ancestor=0.195739,age_95%_HPD={4.62689,10.5283}]:1.743505)[&index=34,posterior=0.362184,age_95%_HPD={5.63649,11.9311}]:1.482997)[&index=35,posterior=0.878162,age_95%_HPD={6.25016,13.7116}]:0.618111,((((Implicaticystis_symmetricus[&index=23,sampled_ancestor=0.004660,age_95%_HPD={0,6.84757}]:0.832191)Implicaticystis_shumardi[&index=36,posterior=0.637150,age_95%_HPD={0.406806,7.6187},sampled_ancestor=0.774301]:0.566258)Comarocystites_tribrachius[&index=37,posterior=0.596538,age_95%_HPD={1.22794,7.84968},sampled_ancestor=0.966045]:1.249683)Comarocystites_punctatus[&index=38,posterior=0.725033,age_95%_HPD={2.43401,8.84905},sampled_ancestor=0.982690]:3.808530,((Cheirocystis_fultonensis[&index=7,sampled_ancestor=0.050599,age_95%_HPD={0,30.1363}]:0.000001)Columbocystis_ovata[&index=39,posterior=0.266312,age_95%_HPD={3.79825,9.87712},sampled_ancestor=0.651132]:0.179821)Columbocystis_typica[&index=40,posterior=0.264980,age_95%_HPD={4.15371,10.2736},sampled_ancestor=0.847537]:1.906446)[&index=41,posterior=0.382157,age_95%_HPD={5.03335,12.2877}]:1.837628)[&index=42,posterior=0.238349,age_95%_HPD={7.8678,14.0871}]:0.770201)Canadocystis_tennesseensis[&index=43,posterior=0.182423,age_95%_HPD={8.67227,14.7424},sampled_ancestor=0.569907]:0.504771,(Bistomiacystis_schrantzi[&index=16,sampled_ancestor=0.000666,age_95%_HPD={1.57708,8.62391}]:1.620995)Bistomiacystis_globosa[&index=44,posterior=0.993342,age_95%_HPD={3.7381,9.95557},sampled_ancestor=0.994008]:6.070141)[&index=45,posterior=0.500000,age_95%_HPD={8.81602,15.2131}]:0.396832)Canadocystis_emmonsi[&index=46,posterior=0.500000,age_95%_HPD={9.44537,15.8316},sampled_ancestor=0.894807]:0.952324)Malocystites_murchisoni[&index=47,posterior=0.498003,age_95%_HPD={10.4094,16.596},sampled_ancestor=0.627164]:0.000000;
+End;

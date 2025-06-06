@@ -1,0 +1,35 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=24;
+	Taxlabels
+		Amygdalocystites_florealis
+		Amygdalocystites_radiatus
+		Bistomiacystis_globosa
+		Bistomiacystis_schrantzi
+		Canadocystis_emmonsi
+		Canadocystis_tennesseensis
+		Columbocystis_ovata
+		Columbocystis_typica
+		Comarocystites_punctatus
+		Comarocystites_tribrachius
+		Estonocystis_antropoffi
+		Globulocystites_cristatus
+		Globulocystites_infundus
+		Globulocystites_rotundatus
+		Implicaticystis_shumardi
+		Implicaticystis_symmetricus
+		Malocystites_murchisoni
+		Oklahomacystis_bibrachiatus
+		Oklahomacystis_spissus
+		Oklahomacystis_tribrachiatus
+		Oklahomacystis_trigonis
+		Platycystites_faberi
+		Sinclairocystis_praedicta
+		Wellerocystis_kimmswickensis
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&R](((((((((Globulocystites_cristatus[&index=10,age_95%_HPD={3.86668,5.49408}]:0.607638,Globulocystites_infundus[&index=15,age_95%_HPD={3.40557,5.11998}]:1.003486)[&index=25,posterior=0.261544,age_95%_HPD={4.11295,6.65555}]:0.636849,Platycystites_faberi[&index=2,age_95%_HPD={4.30521,5.95003}]:0.796915)[&index=26,posterior=0.351578,age_95%_HPD={4.55708,7.60395}]:0.712116,Globulocystites_rotundatus[&index=3,age_95%_HPD={3.89471,6.30502}]:1.545337)[&index=27,posterior=0.620253,age_95%_HPD={4.76511,9.32213}]:1.100700,Sinclairocystis_praedicta[&index=4,age_95%_HPD={3.45026,5.1198}]:3.440884)[&index=28,posterior=0.288465,age_95%_HPD={5.13752,11.7192}]:0.202311,Wellerocystis_kimmswickensis[&index=16,age_95%_HPD={0,1.83203}]:7.072157)[&index=29,posterior=0.308255,age_95%_HPD={5.10151,12.225}]:1.623115,((((Oklahomacystis_bibrachiatus[&index=9,age_95%_HPD={3.60663,5.22667}]:0.791596,Oklahomacystis_tribrachiatus[&index=12,age_95%_HPD={3.68811,5.38787}]:0.632870)[&index=30,posterior=0.711535,age_95%_HPD={4.06294,6.41468}]:0.603023,Oklahomacystis_trigonis[&index=18,age_95%_HPD={2.90328,5.23493}]:1.583132)[&index=31,posterior=0.608843,age_95%_HPD={4.23212,7.78468}]:0.916757,Oklahomacystis_spissus[&index=5,age_95%_HPD={3.41442,5.03795}]:2.479986)[&index=32,posterior=0.439116,age_95%_HPD={4.71055,9.75145}]:0.593248,(Amygdalocystites_florealis[&index=21,age_95%_HPD={3.34819,5.24771}]:0.397003,Amygdalocystites_radiatus[&index=7,age_95%_HPD={1.79278,3.73584}]:1.945980)[&index=33,posterior=0.968265,age_95%_HPD={3.38515,6.07843}]:2.604816)[&index=34,posterior=0.570512,age_95%_HPD={4.88526,10.9789}]:2.261832)[&index=35,posterior=0.702264,age_95%_HPD={5.86954,14.8705}]:2.229804,((Canadocystis_emmonsi[&index=23,age_95%_HPD={6.30625,10.0007}]:0.281708,Canadocystis_tennesseensis[&index=1,age_95%_HPD={4.44343,8.59278}]:1.704980)[&index=36,posterior=0.302906,age_95%_HPD={6.56708,10.5556}]:1.310990,Malocystites_murchisoni[&index=14,age_95%_HPD={6.51763,9.18998}]:1.990199)[&index=37,posterior=0.571403,age_95%_HPD={7.47772,12.4207}]:2.002402)[&index=38,posterior=0.315564,age_95%_HPD={7.71796,18.2336}]:0.000001,(((((Implicaticystis_shumardi[&index=22,age_95%_HPD={0,0.56537}]:1.117880,Implicaticystis_symmetricus[&index=19,age_95%_HPD={0,0.754041}]:1.026434)[&index=39,posterior=0.459618,age_95%_HPD={0.094097,2.75986}]:0.618049,Comarocystites_punctatus[&index=8,age_95%_HPD={0,3.25932}]:0.547999)[&index=40,posterior=0.662328,age_95%_HPD={0.246075,3.89489}]:1.297013,Comarocystites_tribrachius[&index=24,age_95%_HPD={0.687013,3.12417}]:1.290749)[&index=41,posterior=0.998930,age_95%_HPD={0.879514,6.13407}]:4.330129,(Columbocystis_ovata[&index=17,age_95%_HPD={3.2282,5.21267}]:0.453932,Columbocystis_typica[&index=13,age_95%_HPD={3.18323,5.18202}]:0.610251)[&index=42,posterior=0.962204,age_95%_HPD={3.50816,5.88844}]:2.763627)[&index=43,posterior=0.614548,age_95%_HPD={3.99521,12.8666}]:2.078975,(Bistomiacystis_globosa[&index=6,age_95%_HPD={3.58757,5.15965}]:0.357928,Bistomiacystis_schrantzi[&index=20,age_95%_HPD={0.886073,2.88742}]:2.719427)[&index=44,posterior=1.000000,age_95%_HPD={3.62686,5.88751}]:4.902897)[&index=45,posterior=0.404172,age_95%_HPD={5.1604,16.4499}]:2.201722)[&index=46,posterior=0.177393,age_95%_HPD={7.57348,19.134}]:1.640019,Estonocystis_antropoffi[&index=11,age_95%_HPD={4.63805,6.82275}]:7.663846)[&index=47,posterior=1.000000,age_95%_HPD={8.03469,22.6531}]:0.000000;
+End;

@@ -1,0 +1,68 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=57;
+	Taxlabels
+		Ambolostoma_baileyi
+		Angioblastus_boliviensis
+		Angioblastus_dotti
+		Asterocrinus_benniei
+		Brachyschisma_corrugatum
+		Cheirocystis_fultonensis
+		Codaster_acutus
+		Cribroblastus_cornutus
+		Cryptoblastus_melo
+		Cryptoschisma_schulzii
+		Cupulocorona_gemmiformis
+		Decaschisma_pulchellus
+		Decemboblastus_melonoides
+		Deliablastus_cumberlandensis
+		Deltoblastus_batheri
+		Deltoblastus_permicus
+		Devonoblastus_whiteavesi
+		Diploblastus_glaber
+		Elaeacrinus_verneuili
+		Eleutherocrinus_cassadayi
+		Ellipticoblastus_ellipticus
+		Globoblastus_norwoodi
+		Granatocrinus_granulatus
+		Hadroblastus_convexus
+		Heteroschisma_alternatus
+		Hydroblastus_herdyi
+		Hyperoblastus_goldringae
+		Iranoblastus_nodosus
+		Leptoschisma_lorae
+		Lophoblastus_neglectus
+		Mesoblastus_crenulatus
+		Metablastus_wortheni
+		Monadoblastus_granulosus
+		Monoschizoblastus_rofei
+		Notoblastus_brevispinus
+		Nucleocrinus_elegans
+		Orbiblastus_hoskyni
+		Orophocrinus_stelliformis
+		Pentremites_godoni
+		Pentremites_pulchellus
+		Pentremitidea_paillettei
+		Perittoblastus_liratus
+		Phaenoblastus_caryophyllatus
+		Pinguiblastus_tushanensis
+		Placoblastus_obovatus
+		Pleuroschisma_lycorias
+		Polydeltoideus_enodatus
+		Poroblastus_granulosus
+		Pterotoblastus_gracilis
+		Sagittoblastus_wanneri
+		Schizoblastus_sayi
+		Sinopetaloblastus_jinxingae
+		Stephanocrinus_angulatus
+		Tanaoblastus_roemeri
+		Timoroblastus_coronatus_constrictus
+		Tricoelocrinus_woodmani
+		Troosticrinus_reinwardti
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&R]((((((((((((((((Notoblastus_brevispinus[&index=44,age_95%_HPD={10.0714,20.4112}]:11.801298,Timoroblastus_coronatus_constrictus[&index=20,age_95%_HPD={0,13.9126}]:19.825705)[&index=58,posterior=0.373150,age_95%_HPD={15.6155,38.899}]:7.193926,Pterotoblastus_gracilis[&index=25,age_95%_HPD={0,7.38118}]:31.995297)[&index=59,posterior=0.332756,age_95%_HPD={20.2443,49.9256}]:14.864347,Codaster_acutus[&index=36,age_95%_HPD={11.5565,64.0343}]:7.077403)[&index=60,posterior=0.050660,age_95%_HPD={31.9569,64.8791}]:6.353681,(Angioblastus_boliviensis[&index=9,age_95%_HPD={27.2785,39.2562}]:5.442067,Angioblastus_dotti[&index=22,age_95%_HPD={26.9437,38.7479}]:5.559809)[&index=61,posterior=0.974403,age_95%_HPD={30.5913,45.8998}]:17.042731)[&index=62,posterior=0.007732,age_95%_HPD={45.3251,68.3723}]:4.315071,(Deltoblastus_batheri[&index=18,age_95%_HPD={0,13.0746}]:11.389276,Sagittoblastus_wanneri[&index=21,age_95%_HPD={0,5.43246}]:16.543656)[&index=63,posterior=0.179176,age_95%_HPD={2.02224,38.2292}]:41.899987)[&index=64,posterior=0.652313,age_95%_HPD={45.976,74.7703}]:19.531295,Hadroblastus_convexus[&index=46,age_95%_HPD={56.8616,76.816}]:12.115739)[&index=65,posterior=0.461538,age_95%_HPD={63.1806,97.0216}]:17.312829,Asterocrinus_benniei[&index=45,age_95%_HPD={66.3658,74.6319}]:26.249870)[&index=66,posterior=0.365151,age_95%_HPD={78.7464,115.491}]:19.254470,Heteroschisma_alternatus[&index=3,age_95%_HPD={105.605,115.633}]:5.647351)[&index=67,posterior=0.329689,age_95%_HPD={107.176,127.044}]:9.834364,Pentremitidea_paillettei[&index=33,age_95%_HPD={101.728,114.269}]:17.768298)[&index=68,posterior=0.236502,age_95%_HPD={113.449,138.909}]:11.872217,Brachyschisma_corrugatum[&index=41,age_95%_HPD={109.507,128.775}]:18.609099)[&index=69,posterior=0.251033,age_95%_HPD={124.005,150.414}]:13.935233,Leptoschisma_lorae[&index=5,age_95%_HPD={134.304,143.804}]:12.662176)[&index=70,posterior=0.061858,age_95%_HPD={143.625,161.352}]:4.403029,Decaschisma_pulchellus[&index=57,age_95%_HPD={145.666,156.082}]:5.235963)[&index=71,posterior=0.107719,age_95%_HPD={147.636,164.505}]:7.568017,(((((((((((Ellipticoblastus_ellipticus[&index=8,age_95%_HPD={66.1113,74.4809}]:14.292862,Tanaoblastus_roemeri[&index=51,age_95%_HPD={72.4728,84.1429}]:6.314382)[&index=72,posterior=0.547794,age_95%_HPD={76.555,92.3817}]:4.005422,Poroblastus_granulosus[&index=14,age_95%_HPD={68.1706,85.5941}]:11.765228)[&index=73,posterior=0.549927,age_95%_HPD={80.0046,97.0493}]:5.187581,Cryptoblastus_melo[&index=54,age_95%_HPD={76.2877,87.5211}]:11.716674)[&index=74,posterior=0.673377,age_95%_HPD={84.7557,102.395}]:5.941232,(Globoblastus_norwoodi[&index=16,age_95%_HPD={67.8242,85.8984}]:15.108073,Mesoblastus_crenulatus[&index=37,age_95%_HPD={74.3507,86.309}]:12.078442)[&index=75,posterior=0.301160,age_95%_HPD={81.7095,103.164}]:7.607407)[&index=76,posterior=0.096387,age_95%_HPD={89.8213,110.865}]:4.896015,((((Granatocrinus_granulatus[&index=10,age_95%_HPD={61.7022,74.2669}]:7.242351,Monadoblastus_granulosus[&index=34,age_95%_HPD={51.0974,71.3197}]:13.017862)[&index=77,posterior=0.455006,age_95%_HPD={64.3691,85.7607}]:0.805161,Iranoblastus_nodosus[&index=48,age_95%_HPD={26.0436,38.0972}]:43.913350)[&index=78,posterior=0.191308,age_95%_HPD={64.6445,86.452}]:11.719610,Orbiblastus_hoskyni[&index=26,age_95%_HPD={76.1219,87.865}]:5.623463)[&index=79,posterior=0.019064,age_95%_HPD={79.8819,98.6225}]:5.711295,(Deliablastus_cumberlandensis[&index=50,age_95%_HPD={67.0426,79.9112}]:12.871488,Schizoblastus_sayi[&index=30,age_95%_HPD={54.7332,73.2816}]:22.122795)[&index=80,posterior=0.019064,age_95%_HPD={74.7693,96.1525}]:6.981724)[&index=81,posterior=0.082922,age_95%_HPD={81.5619,104.097}]:11.409740)[&index=82,posterior=0.181309,age_95%_HPD={93.3133,117.004}]:8.279651,((((Deltoblastus_permicus[&index=53,age_95%_HPD={0,7.72909}]:51.344987,Pentremites_pulchellus[&index=13,age_95%_HPD={42.8991,56.1201}]:4.503224)[&index=83,posterior=0.197440,age_95%_HPD={45.672,63.9028}]:7.981476,Pentremites_godoni[&index=52,age_95%_HPD={39.965,62.5747}]:10.360514)[&index=84,posterior=0.574590,age_95%_HPD={49.7282,76.788}]:21.000026,Ambolostoma_baileyi[&index=7,age_95%_HPD={72.988,84.6939}]:4.220520)[&index=85,posterior=0.510999,age_95%_HPD={74.6185,92.562}]:11.907259,Sinopetaloblastus_jinxingae[&index=55,age_95%_HPD={74.53,92.8638}]:10.965979)[&index=86,posterior=0.482869,age_95%_HPD={83.8933,107.021}]:17.779010)[&index=87,posterior=0.004266,age_95%_HPD={107.314,120.695}]:7.126732,((Devonoblastus_whiteavesi[&index=39,age_95%_HPD={104.434,114.144}]:6.011769,Eleutherocrinus_cassadayi[&index=1,age_95%_HPD={101.256,113.97}]:7.818481)[&index=88,posterior=0.079456,age_95%_HPD={108.12,121.943}]:1.737935,Hyperoblastus_goldringae[&index=12,age_95%_HPD={104.948,115.273}]:7.100722)[&index=89,posterior=0.101720,age_95%_HPD={110.087,124.182}]:3.120075)[&index=90,posterior=0.009465,age_95%_HPD={111.947,128.718}]:5.557064,(((((Diploblastus_glaber[&index=49,age_95%_HPD={51.9104,70.627}]:14.059194,Perittoblastus_liratus[&index=43,age_95%_HPD={62.4313,75.5505}]:7.903097)[&index=91,posterior=0.128383,age_95%_HPD={66.6779,86.8003}]:3.409694,Cribroblastus_cornutus[&index=17,age_95%_HPD={48.1088,67.725}]:21.935466)[&index=92,posterior=0.372217,age_95%_HPD={70.038,93.3698}]:10.171925,((Metablastus_wortheni[&index=23,age_95%_HPD={58.2167,71.1757}]:7.009359,Tricoelocrinus_woodmani[&index=56,age_95%_HPD={55.0388,68.1717}]:10.108564)[&index=93,posterior=0.933342,age_95%_HPD={62.2742,82.1098}]:11.215869,(Monoschizoblastus_rofei[&index=4,age_95%_HPD={66.1793,74.4889}]:5.284723,Pleuroschisma_lycorias[&index=2,age_95%_HPD={48.8585,80.9299}]:7.749527)[&index=94,posterior=0.033995,age_95%_HPD={66.6518,86.309}]:7.460037)[&index=95,posterior=0.064925,age_95%_HPD={71.2949,97.8551}]:7.338945)[&index=96,posterior=0.064925,age_95%_HPD={77.4255,105.179}]:7.514069,((Lophoblastus_neglectus[&index=40,age_95%_HPD={57.7192,72.2579}]:16.322959,Pinguiblastus_tushanensis[&index=42,age_95%_HPD={64.2501,81.6073}]:9.047913)[&index=97,posterior=0.442874,age_95%_HPD={70.7642,92.8464}]:6.309126,Decemboblastus_melonoides[&index=35,age_95%_HPD={67.1295,85.097}]:10.468388)[&index=98,posterior=0.669244,age_95%_HPD={75.3964,101.661}]:10.181568)[&index=99,posterior=0.033462,age_95%_HPD={84.2811,110.47}]:15.842577,Hydroblastus_herdyi[&index=38,age_95%_HPD={102.796,112.406}]:5.917534)[&index=100,posterior=0.023730,age_95%_HPD={105.322,125.178}]:11.848168)[&index=101,posterior=0.049860,age_95%_HPD={115.334,136.794}]:10.304962,(((Elaeacrinus_verneuili[&index=24,age_95%_HPD={101.518,115.081}]:2.568097,Nucleocrinus_elegans[&index=31,age_95%_HPD={103.831,113.788}]:1.709852)[&index=102,posterior=0.886815,age_95%_HPD={105.071,116.587}]:3.410707,Placoblastus_obovatus[&index=19,age_95%_HPD={103.659,113.502}]:5.718220)[&index=103,posterior=0.889615,age_95%_HPD={107.067,120.652}]:5.052066,Cryptoschisma_schulzii[&index=32,age_95%_HPD={106.353,119.079}]:6.417537)[&index=104,posterior=0.121584,age_95%_HPD={109.409,132.191}]:16.770158)[&index=105,posterior=0.054659,age_95%_HPD={124.186,148.353}]:-0.328202,(Orophocrinus_stelliformis[&index=47,age_95%_HPD={56.4586,92.6525}]:28.211095,Phaenoblastus_caryophyllatus[&index=6,age_95%_HPD={76.8562,88.4617}]:19.244148)[&index=106,posterior=0.463405,age_95%_HPD={84.7602,122.634}]:33.788966)[&index=107,posterior=0.165445,age_95%_HPD={122.892,148.301}]:19.233038,Troosticrinus_reinwardti[&index=29,age_95%_HPD={139.107,152.155}]:9.176664)[&index=108,posterior=0.158246,age_95%_HPD={143.948,165.572}]:8.819893)[&index=109,posterior=0.244234,age_95%_HPD={152.623,175.157}]:6.152136,Polydeltoideus_enodatus[&index=27,age_95%_HPD={136.003,147.247}]:27.854159)[&index=110,posterior=0.982002,age_95%_HPD={156.583,185.152}]:26.288472,Cheirocystis_fultonensis[&index=15,age_95%_HPD={169.352,184.04}]:18.942890)[&index=111,posterior=0.566324,age_95%_HPD={176.85,218.407}]:17.333447,(Cupulocorona_gemmiformis[&index=28,age_95%_HPD={146.95,155.693}]:9.259897,Stephanocrinus_angulatus[&index=11,age_95%_HPD={142.452,152.918}]:13.759763)[&index=112,posterior=0.991201,age_95%_HPD={148.87,174.468}]:52.518672)[&index=113,posterior=1.000000,age_95%_HPD={190.435,236.053}]:0.000000;
+End;
